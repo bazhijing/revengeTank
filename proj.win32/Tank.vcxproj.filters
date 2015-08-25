@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Entity">
+      <UniqueIdentifier>{25f1218d-3d2a-4cc6-bcad-23c721b5c34c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tollgate">
+      <UniqueIdentifier>{83e3aecc-c332-454c-bdd3-801ca946dab6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Entity\Player">
+      <UniqueIdentifier>{5306fa78-03b8-41a6-a218-c8ce2572fc3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Entity\Enemy">
+      <UniqueIdentifier>{cf53158c-61f9-4bb9-89bb-ba63b7a0086c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Entity\Tank">
+      <UniqueIdentifier>{c0189d8a-ed8f-419c-814e-14c4e248e63f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Controller">
+      <UniqueIdentifier>{5f40628b-a48e-492e-9848-1c9a964ccd49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Controller\FourDirectionMoveController">
+      <UniqueIdentifier>{caa3d2ad-4683-4406-9e27-a0131fbdefee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Controller\ControllerListener">
+      <UniqueIdentifier>{0d44f0d7-9e8d-4e98-9d31-13eb72ede0bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tollgate\TiledMap">
+      <UniqueIdentifier>{68231a7c-f779-403c-9212-8ed5fbe43785}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\StartScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TollgateScene.cpp">
+      <Filter>src\Tollgate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Tank.cpp">
+      <Filter>src\Entity\Tank</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\FourDirectionMoveController.cpp">
+      <Filter>src\Controller\FourDirectionMoveController</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Controller.cpp">
+      <Filter>src\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Entity.cpp">
+      <Filter>src\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Player.cpp">
+      <Filter>src\Entity\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TiledMapInfo.cpp">
+      <Filter>src\Tollgate\TiledMap</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TollgateScene.h">
+      <Filter>src\Tollgate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\StartScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Player.h">
+      <Filter>src\Entity\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Enemy.h">
+      <Filter>src\Entity\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EnemyManager.h">
+      <Filter>src\Entity\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Entity.h">
+      <Filter>src\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FourDirectionMoveController.h">
+      <Filter>src\Controller\FourDirectionMoveController</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Controller.h">
+      <Filter>src\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ControllerListener.h">
+      <Filter>src\Controller\ControllerListener</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Tank.h">
+      <Filter>src\Entity\Tank</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TiledMapInfo.h">
+      <Filter>src\Tollgate\TiledMap</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

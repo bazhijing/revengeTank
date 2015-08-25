@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="60" height="30" tilewidth="32" tileheight="32" nextobjectid="5">
+ <tileset firstgid="1" name="map" tilewidth="32" tileheight="32" tilecount="450">
+  <image source="map.png" width="980" height="490"/>
+ </tileset>
+ <layer name="块层 1" width="60" height="30">
+  <data encoding="base64" compression="zlib">
+   eJyVl0GyozAMRO1/BiobdjlRFrlKthyEcyb7GSq/J82j5TBUqQLGgJ5akp25tzb/tWt7/45sae959/62a9vbClt+bTvfjql/xrZzt1tv/w7e03HDPB5TP17TNj8f/WNkkIlX7Gk+Oe/98+usyadbsOQv51axmfpHFx+b4bc45Js0ld/3vmcmr89zzsp3aif9Rlxzwc7nZXf7lrS7tj2jM+se83U1trUdY+Oxe1icKr2ck1o59ww+XvP9jL1M/lzN90o3MTKHF7ue7BvOS+7kY5XPetZZ576PCf1sqKnk99yP2pEx1av6mOLlzNTWfU/1R718vmqgyu1KX+XkEpj8fAl8fv5j+cH5um7GLKbEzPq+FfOoddXvPIbJ9zNGbunqvZw9O/UbxSDpnPqPX1fa+rOMHxmqXE2s/uu8yhdpnXhHuX3GOF9H1avFPtonnNHU+7nWJ42vpnWlKZndb9eVGp6JDWOgWv7GWbGn57T+eF+v1iKOpV6bNE39vapfXp9l/QGnc/v+jM9pnPqSUcd2filYv+npeXsJxvqldl6DPs49tfd1vxYr10MaNXMtL/1Yq7fAwnHGQmPkrBge/Vjnrt0C1hHvZL/P9rZU02SlVmk89enJ7lEz7qN83+X2gCk2vk959D339t1X++Sz5olZ3O5nyk3WsuuXtPVx52W9cZ/lfIndc9N5yS9G15t9WHVO/6m51zs1GfEm1qQhucVYMdP8PdJ4O16/5uuQs47qP2lZ6V/1Y/fL95aJe6Tz2vY56cw+Jr916BnpzLr0Z3U/9WTmOHtyqlUyk/ve9znszCt8l66qZ/eL+c1cfoKrtWN/Vyw8Jh6nJTzjWvF/UspPzqvmpHr2fvuy91drCnXTd6sexve4rq5V6kuur7N77lbM0pY9wbVX7t4xltZY8nosqp5F3tW0Zq6Sm/f1Hn7Px5390o/xUN0qtz1vvY7J6xpXfbzS12s48ZC7qvcUh9W0I/uz7dcjaqZx9qPE67kw4vU8dZ5RDld5zBrxdzzbkUf9SMzyP/Xcb2vTiDdpQd6KhSYdva48l30fVfmb7rnmMuW29hv6RrXuUl9nqHhGxlh4/pLj2fZ6eRzE1YqYVPo5M+NQ8Vb1WOWuP+Mxcp5n2+ega01WjwnXY3KSI/WV6n9lYhrtPUa9O9Xy2doTm/ettAdOvlNL5YiOivebP1VsWA+y6cv7ppNW8aacZWydl73zf+t2lB/frGJLc6tcrHJAjOoDuv8HoCT5fw==
+  </data>
+ </layer>
+ <objectgroup name="object">
+  <object id="3" name="PlayerPoint" x="672" y="160" width="32" height="33"/>
+ </objectgroup>
+ <layer name="meta" width="60" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAgiD/r25IQAEAAAAAAAAvBhwgAAE=
+  </data>
+ </layer>
+</map>
